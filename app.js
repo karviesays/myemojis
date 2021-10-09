@@ -59,4 +59,3 @@ if(emojiFromStorage){
     myEmo = emojiFromStorage
     renderEmojis(myEmo)
 }
-console.log(myEmo)

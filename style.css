@@ -1,0 +1,72 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+
+    min-height: 100vh;
+    background: #2c3e50;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+input {
+    display: block;
+    margin: 1em auto;
+    border: none;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 5%, rgba(252,70,107,1) 100%);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block; 
+    padding: 10px;
+    border-radius: 6px;
+    color: #000;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.btn-add {
+    background: #f1c40f;
+}
+
+.btn-add:hover,
+.btn-focus {
+    background: #f39c12;
+}
+
+.btn-remove {
+    background: #e74c3c;
+}
+.btn-remove:hover,
+.btn-remove:focus {
+    background: #c0392b;
+}
+
+span {
+    font-size: 3rem;
+}
